@@ -3,22 +3,22 @@
 require_relative 'lib/trx/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'trx'
+  spec.name = 'trx.rb'
   spec.version = Trx::VERSION
   spec.authors = ['Ruslan Kotov']
   spec.email = ['rkotov93@gmail.com']
 
   spec.summary = 'A client for Tron blockchain'
   spec.description = 'A client for Tron blockchain'
-  spec.homepage = 'https://github.com/rkotov93/trx'
+  spec.homepage = 'https://github.com/rkotov93/trx.rb'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.6.0'
 
   spec.metadata['allowed_push_host'] = "TODO: Set to your gem server 'https://example.com'"
 
-  spec.metadata['homepage_uri'] = 'https://github.com/rkotov93/trx'
-  spec.metadata['source_code_uri'] = 'https://github.com/rkotov93/trx'
-  spec.metadata['changelog_uri'] = 'https://github.com/rkotov93/trx/blob/main/CHANGELOG.md'
+  spec.metadata['homepage_uri'] = 'https://github.com/rkotov93/trx.rb'
+  spec.metadata['source_code_uri'] = 'https://github.com/rkotov93/trx.rb'
+  spec.metadata['changelog_uri'] = 'https://github.com/rkotov93/trx.rb/blob/main/CHANGELOG.md'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
